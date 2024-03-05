@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    body{
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .clock {
+        display:flex;
+        width: 600px;
+        height: 150px;
+        border: solid;
+        border-radius: 20px;
+    }
+    .digit_1, .digit_2, .dot{
+        width: 40px;
+        height: 60px;
+        margin: 30px;
+    }
+    .digit_1_top, .digit_1_bottom {
+        height: 30px;
+        width: 30px;
+        border: 10px solid transparent;
+        border-right-color: white;
+    }
+    .digit_2_top{
+        height: 30px;
+        width: 30px;
+        border: solid white;
+        border-width: 10px 10px 5px 10px;
+        border-left-color: transparent;
+    }
+    .digit_2_bottom{
+        height: 30px;
+        width: 30px;
+        border: solid white;
+        border-width: 5px 10px 10px 10px;
+        border-right-color: transparent;
+    }
+    .dot_top{
+        width: 1px;
+        border: 10px solid;
+        border-radius: 60px;
+        margin-bottom: 50px;
+    }
+    .dot_bottom{
+        width: 1px;
+        border: 10px solid;
+        border-radius: 60px;
+    }
+    </style>
+</head>
+<body>
+<div class="clock">
+    <div class="digit_1">
+        <div class="digit_1_top"></div>
+        <div class="digit_1_bottom"></div>
+    </div>
+    <div class="digit_2">
+        <div class="digit_2_top"></div>
+        <div class="digit_2_bottom"></div>
+    </div>
+    <div class="dot">
+        <div class="dot_top"></div>
+        <div class="dot_bottom"></div>
+    </div>
+</div>
+</body>
+</html>
